@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Diluição</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Diluição</h1>
+
+    </header>
+    <main>
+        <div id="dados">
+            <p>Quantidade de produto que deseja fazer<br><input type="number" name="volml" id="volml" min="0" placeholder="Volume"> ML</p>
+            <p>Diluição recomendada pelo fabricante<br><strong>1 /</strong> <input type="number" name="dilu" id="dilu" min="0" placeholder="Proporção"> ML</p>
+            <input class="bt" type="button" value="Calcular" onclick="calcular()">
+            
+           
+
+        </div>
+        <div id="res">
+            <p>Diluição</p>
+           
+                <img src="medidor1.png" alt="medidor">
+
+        </div>
+        
+
+    </main>    
+    <footer>
+        <p>Criado por Wilian B. Santos</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
