@@ -26,74 +26,74 @@
             }if (porp <= 5){
                 res.innerHTML+= `<br> <img src="m5.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
 
             }if (porp >5 && porp <= 10  ) {
                 res.innerHTML += `<img src="m10.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >10 && porp <= 15 ) {
                 res.innerHTML += `<br><img src="m15.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >15 && porp <= 20 ) {
                 res.innerHTML += `<br><img src="m20.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
-                </div>`
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
+                </div> `
             }if (porp >20 && porp <= 25 ) {
                 res.innerHTML += `<br><img src="m25.png" alt="medidor">
-                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <div class="coluna">
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >25 && porp <= 30 ) {
                 res.innerHTML += `<br><img src="m30.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >30 && porp <= 35 ) {
                 res.innerHTML += `<br><img src="m35.png" alt="medidor"> 
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
-                </div>`
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
+                </div> `
             }if (porp >35 && porp <= 40 ) {
                 res.innerHTML += `<br><img src="m40.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >40 && porp <= 45 ) {
                 res.innerHTML += `<br><img src="m45.png" alt="medidor">
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
                 </div> `
             }if (porp >45 && porp <= 50 ) {
                 res.innerHTML += `<br><img src="m50.png" alt="medidor"> 
                 <div class="coluna">
-                <ins>${agua.toFixed(0)} ML</ins>
+                <ins><abbr title="Água">${agua.toFixed(0)} ML</abbr></ins>
                  <br>
-                <ins>${cal.toFixed(1)} ML</ins>
-                </div>`
+                <ins><abbr title="Produto">${cal.toFixed(1)} ML</abbr></ins>
+                </div> `
             }
            
         
