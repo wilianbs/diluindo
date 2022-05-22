@@ -30,7 +30,7 @@ h1.titulo{
     box-shadow: 2px 2px 5px 1px rgba(53, 53, 53, 0.5);
 }
 p{
-    font-size: .7rem;
+    font-size: .8rem;
    
     
 }
@@ -40,10 +40,10 @@ h1, h2{
 }
 div.materia{
     margin-top: 20px;
-    width: 320px;
+    width: 330px;
 
 }div.tx1{
-    width: 320px;
+    width: 330px;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ div.materia{
 div#dados{
     background: rgb(208, 206, 255);
     margin-top: 20px;
-    width: 320px;
+    width: 330px;
     height: 220px;
     text-align: center;
     line-height: 40px;
@@ -65,7 +65,7 @@ div#res{
     background: white;
     padding-top: 10px;
     
-    width: 320px;
+    width: 330px;
     height: 400px;
     text-align: center;
     line-height: 30px;
