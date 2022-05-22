@@ -13,16 +13,17 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7121153197153023"
      crossorigin="anonymous"></script>
 
+
 </head>
 <body>
     <header>
-        <h1>Calculadora de Diluição</h1>
+        <h1 class="titulo">Calculadora de Diluição</h1>
 
     </header>
     <main>
         <div id="dados">
             <p>Quantidade de produto que deseja fazer<br><input type="number" name="volml" id="volml" min="0" placeholder="Volume"> ML</p>
-            <p>Diluição recomendada pelo fabricante<br><strong>1 /</strong> <input type="number" name="dilu" id="dilu" min="0" placeholder="Proporção"> ML</p>
+            <p>Diluição recomendada pelo fabricante<br><strong>1 :</strong> <input type="number" name="dilu" id="dilu" min="0" placeholder="Proporção"> ML</p>
             <input class="bt" type="button" value="Calcular" onclick="calcular()">
             <abbr title="Água"></abbr>
             <abbr title="Produto"></abbr>
@@ -36,6 +37,25 @@
                 <img src="medidor1.png" alt="medidor">
 
         </div>
+        <aside>
+            <div class="materia">
+                <h1>Como diluir produtos concentrados</h1>
+                <p>A diluição de produto pode ser um desafio, mas usando a calculadora de diluição tudo fica muito mais fácil. Os fabricantes representam a diluição como, por exemplo, 1:5, 1:10, 1:50, 1:200 e outros.</p><br>
+            </div>
+            <div class="tx1">
+
+                <p><strong>Exemplo: 1:50</strong></p>
+                
+                <p>1 parte de produto para 50 partes de água</p><br>
+               
+                <p>Para usar a calculadora deve inserir no campo <ins>Volume</ins> a quantidade total de produtos que deseja fazer como: 200ml, 500ml, 1000ml ou tamanho total do recipiente.</p> <br>
+                <p>No campo <ins>Proporção</ins> deve inserir a diluição recomendada pelo fabricante.</p><br>
+                <h2>Resultado</h2>
+                <p>Apos inserir os dados e clicar em Calcular, o resultado sera quantos ML de produtos deve colocar e a quantidade de água, na proporção correta que o fabricante recomenda.</p>
+              
+            </div>
+
+        </aside>
         
 
     </main>    
